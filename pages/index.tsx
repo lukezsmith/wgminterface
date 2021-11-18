@@ -49,7 +49,7 @@ const Home: NextPage = () => {
       </Head>
 
       <main id="main" className="py-64  sm:py-40 md:py-32 xl:py-40 lg:mx-80  xl:mx-96 flex h-screen overflow-y-hidden">
-        <div className="mx-32 md:mx-80 xl:mx-40 " id="grid">
+        <div className="mx-20 md:mx-80 xl:mx-40 " id="grid">
           <div data-tilt-full-page-listening className="card">
             <div className="card-content flex flex-col">
               <img className="w-32 xl:w-40" src="logo.svg"/>
