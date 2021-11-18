@@ -53,7 +53,6 @@ const Home: NextPage = () => {
       <p>WGMInterfaces <span className="mx-5">◕ ◡ ◕</span> WGMInterfaces <span className="mx-5">◕ ◡ ◕</span> WGMInterfaces <span className="mx-5">◕ ◡ ◕</span> WGMInterfaces <span className="mx-5">◕ ◡ ◕</span> WGMInterfaces <span className="mx-5">◕ ◡ ◕</span> WGMInterfaces <span className="mx-5">◕ ◡ ◕</span> WGMInterfaces <span className="mx-5">◕ ◡ ◕</span> WGMInterfaces <span className="mx-5">◕ ◡ ◕</span> WGMInterfaces <span className="mx-5">◕ ◡ ◕</span> WGMInterfaces <span className="mx-5">◕ ◡ ◕</span> </p>
       </div>
       </Marquee>
-      {/* <div className="infinite-scroll-wrapper"></div> */}
 
       <main
         id="main"
