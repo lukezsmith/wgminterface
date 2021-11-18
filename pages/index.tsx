@@ -60,6 +60,8 @@ const Home: NextPage = () => {
                   xmlnsXlink="http://www.w3.org/1999/xlink"
                   viewBox="0 0 300 300"
                   aria-hidden="true"
+                  height="500"
+                  width="500"
                 >
                   <defs>
                     <path id="a" d="M90 150a60 60 0 01120 0 60 60 0 01-120 0" />
