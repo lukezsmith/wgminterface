@@ -33,6 +33,10 @@ const Home: NextPage = () => {
       speed: 800,
       perspective: 1000,
       glare: true,
+      gyroscopeMinAngleX:     -10,     // This is the bottom limit of the device angle on X axis, meaning that a device rotated at this angle would tilt the element as if the mouse was on the left border of the element;
+    gyroscopeMaxAngleX:    10,      // This is the top limit of the device angle on X axis, meaning that a device rotated at this angle would tilt the element as if the mouse was on the right border of the element;
+    gyroscopeMinAngleY:     -10,     // This is the bottom limit of the device angle on Y axis, meaning that a device rotated at this angle would tilt the element as if the mouse was on the top border of the element;
+    gyroscopeMaxAngleY:     10,   
       "mouse-event-element": "main",
     });
 
