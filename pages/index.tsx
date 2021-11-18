@@ -2,6 +2,8 @@ import type { NextPage } from "next";
 import Head from "next/head";
 import VanillaTilt from "vanilla-tilt";
 import React, { useEffect } from "react";
+// import { HorizontalTicker } from "react-infinite-ticker";
+import Marquee from "react-fast-marquee";
 
 const Home: NextPage = () => {
   // Get all tilt elements
@@ -46,16 +48,27 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
+      <Marquee className="bg-black h-10" gradient={false}>
+        <div className="text-white">
+      <p>WGMInterfaces <span className="mx-5">◕ ◡ ◕</span> WGMInterfaces <span className="mx-5">◕ ◡ ◕</span> WGMInterfaces <span className="mx-5">◕ ◡ ◕</span> WGMInterfaces <span className="mx-5">◕ ◡ ◕</span> WGMInterfaces <span className="mx-5">◕ ◡ ◕</span> WGMInterfaces <span className="mx-5">◕ ◡ ◕</span> WGMInterfaces <span className="mx-5">◕ ◡ ◕</span> WGMInterfaces <span className="mx-5">◕ ◡ ◕</span> WGMInterfaces <span className="mx-5">◕ ◡ ◕</span> WGMInterfaces <span className="mx-5">◕ ◡ ◕</span> </p>
+      </div>
+      </Marquee>
+      {/* <div className="infinite-scroll-wrapper"></div> */}
+
       <main
         id="main"
         className="py-64  sm:py-40 md:py-32 xl:py-40 lg:mx-80  xl:mx-96 2xl:mx-96 flex h-screen overflow-hidden select-none"
       >
-        <div className="mx-16 sm:mx-40 md:mx-72 lg:mx-64 xl:mx-44 2xl:mx-96 my-auto" id="grid">
+        <div
+          className="mx-16 sm:mx-40 md:mx-72 lg:mx-64 xl:mx-44 2xl:mx-96 my-auto"
+          id="grid"
+        >
           <div data-tilt-full-page-listening className="card brand">
             <div className="card-content flex flex-col">
               <img className="w-32 xl:w-64" src="logo.svg" />
-              <div className="brand-label">
-                <svg className=""
+              <div className="brand-label invisible sm:visible ">
+                <svg
+                  className=""
                   xmlns="http://www.w3.org/2000/svg"
                   xmlnsXlink="http://www.w3.org/1999/xlink"
                   viewBox="0 0 300 300"
@@ -67,9 +80,8 @@ const Home: NextPage = () => {
                     <path id="a" d="M90 150a60 60 0 01120 0 60 60 0 01-120 0" />
                   </defs>
                   <use xlinkHref="#a" fill="none" />
-                  <text shapeRendering =" crispEdges ">
+                  <text shapeRendering=" crispEdges ">
                     <textPath xlinkHref="#a">
-                      {" "}
                       WGMInterfaces ◕◡◕ WGMInterfaces ◕◡◕ WGMInterfaces ◕◡◕
                     </textPath>
                   </text>
