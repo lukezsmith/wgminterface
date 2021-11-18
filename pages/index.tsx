@@ -50,10 +50,10 @@ const Home: NextPage = () => {
         id="main"
         className="py-64  sm:py-40 md:py-32 xl:py-40 lg:mx-80  xl:mx-96 2xl:mx-96 flex h-screen overflow-hidden select-none"
       >
-        <div className="mx-16 sm:mx-40 md:mx-72 lg:mx-64 xl:mx-44 2xl:mx-96 my-auto" id="grid">
+        <div className="mx-10 sm:mx-40 md:mx-72 lg:mx-64 xl:mx-44 2xl:mx-96 my-auto" id="grid">
           <div data-tilt-full-page-listening className="card brand">
             <div className="card-content flex flex-col">
-              <img className="w-32 xl:w-64" src="logo.svg" />
+              <img className="xl:w-64" src="logo.svg" />
               <div className="brand-label">
                 <svg className=""
                   xmlns="http://www.w3.org/2000/svg"
