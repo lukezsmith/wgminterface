@@ -89,8 +89,11 @@ const Home: NextPage = () => {
             </div>
           </div>
         </div>
-          <img id="wagmi"  className="pt-28 2xl:pt-40 mx-8 sm:mx-32 md:mx-52 lg:mx-32 2xl:mx-80" src="wgmi2.svg" />
+          <img id="wagmi"  className="pt-28 2xl:pt-40 mx-8 sm:mx-32 md:mx-52 lg:mx-32 2xl:mx-80" src="wgmi.svg" />
       </main>
+    <footer className="absolute bottom-5 right-5 text-xs text-gray-400">
+      <a href="https://twitter.com/lukezsmith" className="underline">@lukezsmith</a>
+    </footer>
     </div>
   );
 };
