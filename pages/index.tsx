@@ -56,7 +56,7 @@ const Home: NextPage = () => {
 
       <main
         id="main"
-        className="py-64  sm:py-40 md:py-32 xl:py-40 lg:mx-80  xl:mx-96 2xl:mx-96 flex h-screen overflow-hidden select-none"
+        className="py-32  sm:py-32 md:py-32 xl:py-40 lg:mx-80  xl:mx-96 2xl:mx-96 flex flex-col h-screen overflow-hidden select-none"
       >
         <div
           className="mx-16 sm:mx-40 md:mx-72 lg:mx-64 xl:mx-44 2xl:mx-96 my-auto"
@@ -88,8 +88,8 @@ const Home: NextPage = () => {
               </div>
             </div>
           </div>
-          <img id="wagmi" className="pt-20" src="wgmi.svg" />
         </div>
+          <img id="wagmi"  className="pt-28 2xl:pt-40 mx-8 sm:mx-32 md:mx-52 lg:mx-32 2xl:mx-80" src="wgmi2.svg" />
       </main>
     </div>
   );
