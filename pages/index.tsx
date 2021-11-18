@@ -65,7 +65,7 @@ const Home: NextPage = () => {
                     <path id="a" d="M90 150a60 60 0 01120 0 60 60 0 01-120 0" />
                   </defs>
                   <use xlinkHref="#a" fill="none" />
-                  <text>
+                  <text shapeRendering =" crispEdges ">
                     <textPath xlinkHref="#a">
                       {" "}
                       WGMInterfaces ◕◡◕ WGMInterfaces ◕◡◕ WGMInterfaces ◕◡◕
